@@ -5,11 +5,11 @@ How to compile and run your code from the command line:
 If you are running Java 11 or later, you will need to download the JavaFX libraries separately. 
 Now to compile the application, simply type:
 
-javac --module-path=(path to javaFX folder)/javafx-sdk-11.0.2/lib --add-modules=ALL-MODULE-PATH Main.java
+<b> javac --module-path=(path to javaFX folder)/javafx-sdk-11.0.2/lib --add-modules=ALL-MODULE-PATH Main.java </b>
 
 Then you can run the application using:
 
-java --module-path=(path to javaFX folder)/javafx-sdk-11.0.2/lib --add-modules=ALL-MODULE-PATH Main
+<b> java --module-path=(path to javaFX folder)/javafx-sdk-11.0.2/lib --add-modules=ALL-MODULE-PATH Main </b>
 
 # Rules of the Game
 A player needs to fill the cells in an NxN square grid with the numbers 1 to N (one number per cell), while adhering to the following constraints:
