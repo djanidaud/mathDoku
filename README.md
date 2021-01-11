@@ -11,7 +11,7 @@ Then you can run the application using:
 
 java --module-path=(path to javaFX folder)/javafx-sdk-11.0.2/lib --add-modules=ALL-MODULE-PATH Main
 
-# Rules of the Game:
+# Rules of the Game
 A player needs to fill the cells in an NxN square grid with the numbers 1 to N (one number per cell), while adhering to the following constraints:
  - Each number must appear exactly once in each row.
  - Each number must appear exactly once in each column.
@@ -24,7 +24,7 @@ A player needs to fill the cells in an NxN square grid with the numbers 1 to N (
 Note: If a cage consists of a single cell, then no arithmetic operator is shown. The label simply shows the number that must be in that cell.
 
 
-# Coursework Instructions:
+# Coursework Instructions
 
 <object data="Instructions.pdf" type="application/pdf" width="700px" height="700px">
     <embed src="Instructions.pdf">
