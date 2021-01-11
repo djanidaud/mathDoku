@@ -1,0 +1,196 @@
+.button {
+   -fx-white-space: nowrap;
+   -fx-font-size: 16;
+   -fx-border-radius: 4;
+   -fx-text-fill: #007bff;
+   -fx-background-color: white;
+   -fx-border-color: #007bff;
+   -fx-cursor: hand;
+}
+
+.button:hover, #load:hover {
+   -fx-background-color: rgb(43,105,210);
+   -fx-border-color: rgb(43,105,210);
+   -fx-text-fill: white;
+   -fx-border-radius: 4;
+}
+
+#bottomMenu {
+   -fx-background-color: #f8f9fa;
+   -fx-border-color: rgba(0,0,0,.125);
+   -fx-padding:10;
+}
+#toggleSection {
+   -fx-font-size: 16;
+   -fx-border-radius: 4;
+   -fx-border-color: rgba(0,0,0,.25);
+   -fx-vertical-align: middle;
+   -fx-display: inline-block;
+   -fx-alignment: center;
+}
+
+#toggleSection .label {
+   -fx-background-color: white;
+}
+
+#selectedOn {
+   -fx-text-fill: white;
+   -fx-background-color: #007bff;
+   -fx-border-color: rgba(0,0,0,.25);
+   -fx-cursor: hand;
+}
+#selectedOff {
+   -fx-text-fill: white;
+   -fx-background-color: #6c757d;
+   -fx-border-color: rgba(0,0,0,.25);
+   -fx-cursor: hand;
+}
+
+#not-selected {
+   -fx-background-color: white;
+   -fx-text-fill: black;
+   -fx-border-color: rgba(0,0,0,.25);
+   -fx-cursor: hand;
+}
+
+.text-field {
+   -fx-background-insets: 0;
+   -fx-text-box-border: transparent;
+   -fx-background-color: transparent;
+   -fx-font-size: 25;
+   -fx-cursor: hand;
+   -fx-display-caret: false;
+   -fx-alignment: center;
+}
+.text-field:focused {
+   -fx-background-color: rgba(214, 234, 248,0.7);
+}
+
+#numberButtons .button {
+   -fx-white-space: nowrap;
+   -fx-padding: 6 12;
+   -fx-font-size: 20;
+   -fx-text-fill: #007bff;
+   -fx-background-color: transparent;
+   -fx-border-color: transparent;
+   -fx-cursor: hand;
+   -fx-underline: true;
+}
+
+#numberButtons .button:hover {
+   -fx-white-space: nowrap;
+   -fx-padding: 1 12;
+   -fx-font-size: 25;
+   -fx-text-fill: rgb(43,105,210);
+   -fx-background-color: transparent;
+   -fx-border-color: transparent;
+   -fx-cursor: hand;
+   -fx-underline: true;
+}
+#numberButtons {
+   -fx-alignment: center;
+}
+.label {
+   -fx-font-size: 16;
+}
+
+#gridPane {
+   -fx-border-color: black;
+   -fx-border-width:2;
+   -fx-border-radius: 5;
+   -fx-background-image: url("chest.png");
+   -fx-background-position: center;
+   -fx-background-repeat: no-repeat;
+   -fx-background-size: cover;
+}
+
+.text-area{
+   -fx-background-color: #f8f9fa;
+   -fx-background-insets: 0;
+   -fx-text-box-border: transparent;
+   -fx-font-size: 16;
+   -fx-focus-color: transparent;
+   -fx-border-color: rgba(0,0,0,.125);
+}
+.text-area .content {
+    -fx-background-color: #f8f9fa;
+}
+
+.button-bar .button{
+   -fx-white-space: nowrap;
+   -fx-padding: 5 10;
+   -fx-font-size: 14;
+   -fx-border-radius: 4;
+   -fx-text-fill: white;
+   -fx-background-color: #007bff;
+   -fx-border-color: #007bff;
+   -fx-cursor: hand;
+}
+
+.button-bar .button:hover {
+   -fx-background-color: rgb(43,105,210);
+   -fx-border-color: rgb(43,105,210);
+   -fx-text-fill: white;
+}
+
+.root {
+   -fx-font-family: "Verdana";
+   -fx-alignment: center;
+ }
+
+#mainBody {
+   -fx-background-image: url("back.jpg");
+   -fx-background-position: center;
+   -fx-background-repeat: no-repeat;
+   -fx-background-size: cover;
+}
+
+.choice-box{
+   -fx-cursor: hand;
+}
+
+#bottomMenu .button, #mistakesLabel, #load  {
+   -fx-max-width: 10000000000;
+   -fx-max-height: 10000000000;
+}
+
+#settings {
+   -fx-font: 29.4 "Arial";
+   -fx-padding:0 10 0 10;
+   -fx-min-width: 40;
+}
+
+#clear, #undoButton, #redoButton {
+   -fx-min-width: 70;
+}
+
+#load > .label{
+   -fx-text-fill: #FFFFFF;
+   -fx-font-size:16;
+   -fx-min-width: 70;
+}
+
+#load {
+   -fx-white-space: nowrap;
+   -fx-border-radius: 4;
+   -fx-background-color: #007bff;
+   -fx-border-color: #007bff;
+   -fx-cursor: hand;
+}
+
+#solveButton {
+   -fx-min-width: 75;
+}
+
+#mistakesLabel {
+   -fx-pref-width:140;
+   -fx-alignment: center;
+}
+
+#settingsBox{
+   -fx-alignment: center;
+}
+
+.menu-item {
+   -fx-padding:3;
+}
