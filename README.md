@@ -23,4 +23,3 @@ Coursework Instructions:
 </object>
 
 
-# mathDoku
