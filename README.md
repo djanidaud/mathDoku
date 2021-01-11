@@ -32,8 +32,5 @@ Note: If a cage consists of a single cell, then no arithmetic operator is shown.
     </embed>
 </object>
 
-<embed src="demo.mov">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="Instructions.pdf">Download PDF</a>.</p>
-    </embed>
 
 
