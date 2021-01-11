@@ -24,7 +24,7 @@ A player needs to fill the cells in an NxN square grid with the numbers 1 to N (
 Note: If a cage consists of a single cell, then no arithmetic operator is shown. The label simply shows the number that must be in that cell.
 
 
-Coursework Instructions:
+# Coursework Instructions:
 
 <object data="Instructions.pdf" type="application/pdf" width="700px" height="700px">
     <embed src="Instructions.pdf">
