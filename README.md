@@ -23,6 +23,8 @@ A player needs to fill the cells in an NxN square grid with the numbers 1 to N (
  
 Note: If a cage consists of a single cell, then no arithmetic operator is shown. The label simply shows the number that must be in that cell.
 
+# Example Grid
+![]{example.png}
 
 # Coursework Instructions
 
