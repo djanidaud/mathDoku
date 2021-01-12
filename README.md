@@ -26,6 +26,10 @@ Note: If a cage consists of a single cell, then no arithmetic operator is shown.
 # Example Grid
 ![](example.png)
 
+
+# The End Product
+![](example1.png)
+
 # Coursework Instructions
 
 <object data="Instructions.pdf" type="application/pdf" width="700px" height="700px">
