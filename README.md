@@ -29,6 +29,7 @@ Note: If a cage consists of a single cell, then no arithmetic operator is shown.
 
 # The End Product
 ![](example1.png)
+![](demo.gif)
 
 # Coursework Instructions
 
